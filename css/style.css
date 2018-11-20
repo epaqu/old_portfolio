@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight:normal
 }
 h1 {
-  color: #FDA20D;
+  color: #FF516C;
   font-family: "Raleway", sans-serif;
   font-size:100px;
   font-weight: bold;
@@ -27,17 +27,17 @@ h1 {
   margin-bottom: 10px;
 }
 h2 {
-  color: #E5102C;
+  color: #67B8FF;
   margin-bottom: 30px;
 }
 h3 {
-  color: black;
-  font-family: "Open Sans";
-  font-size: 70px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
-  opacity: 0.3;
+  opacity: 1;
 }
 h4 {
   color: white;
@@ -55,7 +55,7 @@ h5 {
   font-size: 30px;
   font-weight: normal;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 80px;
 }
 h6 {
   color: black;
@@ -65,19 +65,41 @@ h6 {
   text-align: center;
   margin-bottom: 40px;
 }
+
 p {
   color: black;
   font-family: "Noto Sans KR";
   display: inline;
   line-height: 1.5;
 }
-
-#mainlogo{
-  width: 500px;
+.first_skill {
+  margin-bottom: 100px;
+}
+.mainlogo{
+  height: 400px;
+  float: left;
+}
+.catchphrase {
+  position: absolute;
+  margin-top: 12%;
+  color: white;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 40px;
+  list-style-position: inline;
+}
+.keyword {
+  list-style-position: inline;
+}
+.toplogo{
+  height: 80px;
+  float: left;
+  margin-left: 1%;
 }
 #hook {
-  width: 100px;
+  width: 200px;
   opacity: 0.5;
+  margin-top: 10%;
   margin-bottom: 3%;
 }
 .main {
@@ -95,9 +117,9 @@ p {
 }
 .main .page1 .page_container {
   position: relative;
-  top: 25%;
+  top: 20%;
   margin: 0 auto 0;
-  max-width: 950px;
+  max-width: 1300px;
   z-index: 3;
 }
 .main .page2 .page_container {
@@ -105,10 +127,11 @@ p {
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
+  color: white;
 }
 .main .page3 .page_container {
   position: relative;
-  top: 15%;
+  top: 10%;
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3;
@@ -173,19 +196,19 @@ p {
   max-width: auto;
   z-index: 3;
 }
+.page1 {
+  background-color: #202020;
+  background-opacity: .3;
+}
 .page2 {
-  background-color: #C4DD3C;
+  background-color: #202020;
 }
 .page3 {
-  background-color: #FDA20D;
+  background-color: #202020;
 }
 .page4, .page5, .page6, .page7, .page8, .page9 {
   background-color: white;
 }
-.page10 {
-  background-color: white;
-}
-
 .main section .page_container .btns {
   clear: both;
   float: left;
@@ -196,7 +219,6 @@ p {
   text-align: center;
 }
 .main section.page2 .page_container {
-  margin-top: 240px;
   overflow: hidden;
 }
 .main section.page3 .page_container {
@@ -233,7 +255,7 @@ p {
   width: 100px;
   line-height: 140%;
   font-size: 17px;
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 .btn {
@@ -309,7 +331,7 @@ body {
   background: ;
   padding: 0;
   text-align: center;
-  font-family: 'open sans';
+  font-family: "Open Sans", sans-serif;
   position: relative;
   margin: 0;
   height: 100%;
@@ -361,15 +383,16 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
 
 
 .line_block::after {
-  background:black;
+  background:white;
   display:block;
-  width:20em;
+  width:30em;
   height:1px;
-  margin: 0 auto;
-  margin-top: 2%;
-  position:relative;
-  bottom:0;
-  content:""
+  position:absolute;
+  bottom: 4%;
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  content:"";
 }
 
 .skill-list {
@@ -424,7 +447,7 @@ li {
 }
 
 .leftSide {
-  background-color: #C4DD3C;
+  background-color: #202020;
   display: table-cell;
   float: left;
   padding: 100px 5vw;
@@ -439,7 +462,7 @@ li {
   text-align: left;
 }
 .rightSide {
-  background-color: #FDA20D;
+  background-color: #101010;
   display: table-cell;
   float: left;
   padding: 100px 5vw;
@@ -459,12 +482,20 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 .credit a:hover {
-  color: #E5102C;
+  color: #67B8FF;
 }
 .iconed-text {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.iconed-text a {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+}
+.iconed-text a:hover {
+  text-decoration: none;
+  color: #67B8FF;
 }
 .update-date {
   position: absolute;
@@ -481,4 +512,45 @@ li {
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
+}
+
+.menu {
+  background-color: #181818;
+  height: 90px;
+}
+.list-inline {
+  text-decoration: none;
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+  z-index: 100;
+  list-style-type: none;
+  display: inline;
+  margin-right: 1%;
+}
+
+.list-inline-item {
+  margin-top: 14%;
+}
+
+.list-inline-item:hover {
+  /* add fade in effect */
+  opacity: 1;
+}
+.buttons {
+  color: white;
+  opacity: .8;
+  margin-top: 14%;
+}
+.buttons:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.flaticon-envelope, .flaticon-comment-black-oval-bubble-shape, .flaticon-github-logo, .flaticon-linkedin-sign, .flaticon-telephone-handle-silhouette {
+  color: #F0F0F0;
 }
