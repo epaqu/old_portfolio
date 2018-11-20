@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="kr">
+   <head>
+      <meta name="안재우의 포트폴리오" content="안재우의 포트폴리오 페이지입니다.">
+      <title>Jaewoo An | Portfolio</title>
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <!-- 자바스크립트 -->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      <script type="text/javascript" src="./js/jquery.onepage-scroll.js"></script>
+      <!-- 원페이지 스크롤 CSS 추가 -->
+      <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+      <!-- CSS 추가 -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- 한글 폰트 추가 -->
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Yeon+Sung|Sunflower:300|Jua|Cute+Font|Song+Myung|Nanum+Myeongjo|Noto+Serif+KR" rel="stylesheet">
+      <!-- 영문 폰트 추가 -->
+      <link href="https://fonts.googleapis.com/css?family=Mirza|Open+Sans|Lato|Montserrat|Raleway|Source+Sans+Pro|Roboto" rel="stylesheet">
+      <!-- 아이콘 추가 -->
+      <link rel="stylesheet" type="text/css" href="./css/flaticon.css">
+      <!-- 자바스크립트 -->
+      <script type="text/javascript" src="./js/script.js"></script>
+      <script type="text/javascript" src="./js/animation.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(".main").onepage_scroll({
+         sectionContainer: "section",
+         responsiveFallback: 600,
+         loop: true
+         });
+         });
+      </script>
+   </head>
+   <body>
+      <div class="wrapper">
+        <!-- HOME -->
+        <div class="main">
+          <section class="page1">
+             <div class="page_container">
+                <!-- REFRESH -->
+                <a data-animation="fade-in" data-animation-duration="1500" data-animation-delay="500" data-animation-offset="0" href="./index.html">
+                   <!-- LOGO -->
+                   <img id="mainlogo" src="./img/logo.png">
+                </a>
+             </div>
+          </section>
+          <!-- ABOUT ME -->
+          <section class="page2">
+            <div class="page_container">
+              <img id="hook" src="img/hook.png">
+              <h3>They call me J</h3>
+              <h1>Hello!</h1>
+              <h2>낚시 좋아하시나요?</h2>
+              주나라 강태공은 물고기가 아니라 세월을 낚았다죠?<br><br>
+              저도 물고기는 낚을 줄 모릅니다.<br><br>
+              대신 범람하는 정보의 바다에서, 진귀하고 흥미로운 알짜배기 정보를 낚습니다.<br><br>
+              데이터 수집, 분석, 시각화까지.<br><br>
+              세상 가득한 각종 데이터를 낚는 최고의 낚시바늘 J가 되겠습니다.<br><br>
+              <div class="line_block"></div>
+            </div>
+          </section>
+          <section class="page3">
+             <div class="page_container">
+              <h4>S k i l l s</h4>
+
+              <h5>통계분석
+                <ul class="skill-list">
+                  <li>Python3, NumPy, Pandas, Tensorflow</li>
+                  <li>R3.5.1, MATLAB</li>
+                  <li>ANOVA, K-NN, ConvNet, LSTM</li>
+                </ul>
+              </h5>
+
+              <h5>웹디자인
+                <ul class="skill-list">
+                  <li>HTML5, CSS3, JS</li>
+                  <li>Ruby 2.3.3, Rails 5.1.6Bootstrap 4.2</li>
+                </ul>
+              </h5>
+
+              <h5>기타
+                <ul class="skill-list">
+                  <li>C++, Java SE6, Visual Basic, Gephi0.9.2</li>
+                </ul>
+              </h5>
+
+             </div>
+          </section>
+
+          <!-- 프로젝트 1 스팀 -->
+          <section class="page4">
+            <div class="page_container">
+              <h2>1</h2>
+              <h6>스팀 평점 예측 모델</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example1.png" alt="스팀 평점 예측 모델">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">R3.5.1, rvest</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">R3.5.1, XML</p></li>
+                   <li><p class="job">모델링</p><p class="solution">R3.5.1, Python3, Tensorflow</p></li>
+                   <li><p class="job">시각화</p><p class="solution">Gephi0.9.2</p></li>
+                </ul>
+                <div class="description">
+                  시장 최대 규모의 Digital Distribution Platform인 <a href="https://store.steampowered.com/" target="_blank">Steam</a>에 등록된 모든 게임의 정보를 긁어와 K-Nearest Neighbor 알고리즘으로 게임을 긍정적인 리뷰과 부정적인 리뷰 두 클래스로 나누도록 학습시켰습니다. 이를 통해 게임의 평균 리뷰가 추천일지 비추천일지 예측하는 모델을 짜보았습니다.
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/steam-tag-analysis" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/steam-tag-analysis" target="_blank">코드</a>
+               <a role="button" class="ui-button" href="paper" target="_blank">보고서</a>
+            </div>
+          </section>
+
+          <!-- 프로젝트 2 PlayDB -->
+          <section class="page5">
+            <div class="page_container">
+              <h2>2</h2>
+              <h6>PlayDB 공연 정보 크롤러</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example2.png" alt="PlayDB 공연 정보 크롤러">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">R3.5.1, XML, plyr, rvest</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">R3.5.1, XML, plyr</p></li>
+                   <li><p class="job">모델링</p><p class="solution">-</p></li>
+                   <li><p class="job">시각화</p><p class="solution">HTML5, CSS3, Javascript, Ruby on Rails</p></li>
+                </ul>
+                <div class="description">
+                  국내 최고의 공연 데이터베이스 사이트인 <a href="https://playdb.com/" target="_blank">playdb.com</a>에 등록된 콘서트, 뮤지컬, 페스티벌 등 모든 정보를 긁어와 json, html, csv 중 원하는 형태의 파일로 보여주고 저장할 수 있게 해주는 도구를 만들어보았습니다.
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">코드</a>
+            </div>
+          </section>
+
+          <!-- 프로젝트 3 네트워크 -->
+          <section class="page6">
+            <div class="page_container">
+              <h2>3</h2>
+              <h6>카이스트 교수진 네트워크</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example3.png" alt="카이스트 교수진 네트워크">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">-</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">R3.5.1</p></li>
+                   <li><p class="job">모델링</p><p class="solution">-</p></li>
+                   <li><p class="job">시각화</p><p class="solution">Gephi0.9.2, Sigma.JS, Javascript, HTML5, CSS3</p></li>
+                </ul>
+                <div class="description">
+                  2015년 기준 <a href="http://www.kaist.ac.kr" target="_blank">KAIST</a>의 모든 교수의 학부-석사-박사 진학 과정에서 나타나는 전공 변경의 시각화입니다. 원본 데이터는 KAIST 교무팀에 컨택하여 입수하였습니다. 이후 R로 데이터를 정규화하고 용도에 맞게 개선하였습니다. 원본 데이터를 R3.5.1에서 중복되는 열, 비어있는 열을 삭제한 뒤 띄어쓰기나 대소문자 등 형식이 다른 과명칭을 통일시켰습니다. 그 뒤 개인정보를 비식별화하였으며, 그 뒤에 다시 발생하는 중복열은 통합하여 edge weight 행에 가산하였습니다. 이렇게 기본적인 정규화를 진행한 뒤 Gephi0.9.2에서 SigmaExporter0.9.0 플러그인을 사용하여 HTML5 인터렉티브 네트워크로 내보냈습니다. 이후 가독성을 높이고 전체적으로 더 나은 UX를 제공하기 위해 index.html과 style.css, config.json를 가볍게 수정하였습니다.
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">코드</a>
+            </div>
+          </section>
+
+          <!-- 프로젝트 4 필기인식 -->
+          <section class="page7">
+            <div class="page_container">
+              <h2>4</h2>
+              <h6>숫자 필기 인식 시스템</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example4.png" alt="숫자 필기 인식 시스템">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">-</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">Python3, pandas, numpy</p></li>
+                   <li><p class="job">모델링</p><p class="solution">Python3, keras</p></li>
+                   <li><p class="job">시각화</p><p class="solution">Python3, matplotlib</p></li>
+                </ul>
+                <div class="description">
+                  숫자 필기 인식 시스템에 대한 설명
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/digit-recognizer/tree/master/output" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/digit-recognizer/blob/master/digit%20recognizer.py" target="_blank">코드</a>
+            </div>
+          </section>
+
+          <!-- 프로젝트 5 워드클라우드 -->
+          <section class="page8">
+            <div class="page_container">
+              <h2>5</h2>
+              <h6>트위터 워드 클라우드</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example5.png" alt="트위터 워드 클라우드">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">R3.5.1, rtweet</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">R3.5.1, tidytext, dplyr, stringr</p></li>
+                   <li><p class="job">모델링</p><p class="solution">-</p></li>
+                   <li><p class="job">시각화</p><p class="solution">R3.5.1, wordcloud2</p></li>
+                </ul>
+                <div class="description">
+                  원하는 해시태그를 검색하면 해당 해시태그를 가진 트윗 N개를 긁어와 발생 빈도에 따라 크기를 결정한 뒤 워드 클라우드 형태로 출력합니다. R.3.5.1을 사용하였으며, rtweet 패키지를 이용해 트위터 개발자 계정에 할당되는 API로 트위터를 매우 쉽게 긁어올 수 있었습니다. 역시 tidytext와 dplyr, stringr 등의 패키지를 사용해 rtweet이 긁어온 데이터를 용도에 알맞는 형식으로 변환하였고, wordcloud2 패키지를 이용해 워드 클라우드를 생성하였습니다.
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud/blob/master/result.png" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud" target="_blank">코드</a>
+            </div>
+          </section>
+
+
+          <!-- 프로젝트 6 암 진단 -->
+          <section class="page8">
+            <div class="page_container">
+              <h2>6</h2>
+              <h6>췌장암 진단 모델링</h6>
+              <div class="showcase">
+                <img class="showcase_image" src="img/example6.png" alt="췌장암 진단 모델링">
+              </div>
+              <div class="explanation">
+                <ul class="job-list">
+                   <li><p class="job">마이닝</p><p class="solution">R3.5.1</p></li>
+                   <li><p class="job">포매팅</p><p class="solution">R3.5.1</p></li>
+                   <li><p class="job">모델링</p><p class="solution">randomforest</p></li>
+                   <li><p class="job">시각화</p><p class="solution">R3.5.1, Seaborn</p></li>
+                </ul>
+                <div class="description">
+                  췌장암 환자와 비환자의 혈액검사 데이터를 바탕으로 훈련시킨 췌장암 진단 모델입니다.
+                </div>
+              </div>
+            </div>
+            <div class="ui">
+               <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud/blob/master/result.png" target="_blank">결과물</a>
+               <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud" target="_blank">코드</a>
+            </div>
+          </section>
+
+          <section class="page10">
+            <div class="page_container">
+              <div class="leftSide">
+                <h5>This page is</h5>
+                <h4>Powered by</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <span title="폰트" class="credit"><a href="https://fonts.google.com/specimen/Source+Sans+Pro" target="_blank">Source Sans Pro</a></span>
+                    <span class="source">Paul D. Hunt</span>
+                  </li>
+                  <li>
+                    <span title="폰트" class="credit"><a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a></span>
+                    <span class="source">Łukasz Dziedzic</span>
+                  </li>
+                  <li>
+                    <span title="폰트" class="credit"><a href="http://fonts.google.com/specimen/Mirza" target="_blank">Mirza</a></span>
+                    <span class="source">KB Studio</span>
+                  </li>
+                  <li>
+                    <span title="아이콘" class="credit"><a href="https://www.flaticon.com/packs/font-awesome" target="_blank">Font Awesome</a></span>
+                    <span class="source">Dave Gandy</span>
+                  </li>
+                  <li>
+                    <span title="JS" class="credit"><a href="https://getbootstrap.com/" target="_blank">Bootstrap 4.1.3</a></span>
+                    <span class="source">MIT</span>
+                  </li>
+                  <li>
+                    <span title="클립아트" class="credit"><a href="https://svgsilh.com/image/1747990.html" target="_blank">Others</a></span>
+                    <span class="source">SVG Silh</span>
+                </ul>
+              </div>
+              <div class="rightSide">
+                  <h5>Feel free to</h5>
+                  <h4>Contact Me</h4>
+                  <ul class="list-unstyled">
+                    <li title="이메일">
+                      <i class="flaticon-envelope"></i>
+                      <a href="mailto:an.jaewoo@gmail.com"><span class="iconed-text">an.jaewoo@gmail.com</span></a>
+                    </li>
+
+                    <li title="카카오톡">
+                      <i class="flaticon-comment-black-oval-bubble-shape"></i>
+                      <a href="tel:010-8652-3094"><span class="iconed-text">010-8652-3094</span></a>
+                    </li>
+
+                    <li title="GitHub">
+                      <i class="flaticon-github"></i>
+                      <a href="https://github.com/epaqu" target="_blank"><span class="iconed-text">github.com/epaqu</span></a>
+                    </li>
+
+                    <li title="LinkedIn">
+                      <i class="flaticon-linkedin"></i>
+                      <a href="https://www.linkedin.com/in/jaewoo-an-805a31168" target="_blank"><span class="iconed-text">LinkedIn</span></a>
+                    </li>
+                  </ul>
+                <div class="copyright">Copyright &copy; Jaewoo An</div>
+                  <div class="update-date">This portolio was last updated on 2018.11.20</div> 
+                </div>
+                </div>
+                </div>
+                <!-- Copyright -->
+                <div id="footerBase">
+                  
+                </div>
+
+
+
+              </div>
+              <h2>Powered by</h2>
+            </div>
+          </section>
+              <div id="credits" class="footer-widget">
+                <h4 class="footer-heading">Powered by</h4>
+
+
+
+                </div>
+
+
+
+
+        </footer>
+
+                  
+         </div>
+         </section>
+      </div>
+      </div>
+   </body>
+</html>
