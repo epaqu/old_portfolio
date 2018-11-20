@@ -10,3 +10,5 @@ this is my portfolio. It's a wip.
 (2) Some works need better description
 
 (3) Create a JS function Last-Updated-On()
+
+(4) Add some animations.
