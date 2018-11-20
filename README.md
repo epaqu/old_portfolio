@@ -1,6 +1,6 @@
 # portfolio
 this is my portfolio. It's a wip.
-
+https://epaqu.github.io/my_portfolio/.
 =======================================
 
  to do list
