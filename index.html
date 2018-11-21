@@ -1,8 +1,31 @@
+<!--
+
+1)로고- 로고 자체가 J를 왼쪽으로 살짝 눕힌거. 낚시바늘 끝부분에는 정보가 걸렸다는 의미로 색깔을 다르게 한거고. 부족한가?
+2)캐치프레이즈 수정 - done
+3)They call me J 폰트 사이즈 업 - done
+4)저도 물고기는 낚을 줄 모릅니다 - done
+5)하이퍼링크 폰트 색상 - done
+
+6) Cell Phone and tablet views need working.
+
+7) Menu buttons and One Page Scroll Jquery crash.
+
+8) Some works need better description
+
+(4) Create a JS function Last-Updated-On()
+
+(5) Add some animations.
+
+(6) Get a domain name.
+
+
+-->
+
 <!doctype html>
 <html lang="kr">
   <head>
     <meta name="안재우의 포트폴리오" content="안재우의 포트폴리오 페이지입니다.">
-    <title>Jaewoo An | Portfolio</title>
+    <title>안재우 | 포트폴리오</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -53,21 +76,22 @@
                  <!-- LOGO -->
                  <img class="mainlogo" src="img/MainLogo.png">
               </a>
-              <h1 class="catchphrase">예수께서 가라사대 나를 따라 오너라,<br>내가 너희로 <font color="#FF516C">정보 낚는 어부</font>가 되게 하리라.</h1>
+              <h1 class="catchphrase">나를 따라 오라. 내가 너희를<br><font color="#FF516C">정보 낚는 어부</font>가 되게 하리라.</h1>
+              <h1 class="msg">&copy 안재우<br>이 포트폴리오는 1920x1080 환경에 최적화되어있습니다.</h1>
            </div>
         </section>
         <!-- ABOUT ME -->
         <section id="intro" class="page2">
           <div class="page_container">
             <img id="hook" src="img/logo.png">
-            <h3>They call me J</h3>
+            <h3>They call me <img class="J" src="img/j.png"></h3>
             <h1>Hello!</h1>
-            <h2>낚시 좋아하시나요?</h2>
+            <h2>정보 낚는 어부 J입니다.</h2>
+            낚시, 좋아하시나요?<br><br>
             주나라 강태공은 물고기가 아니라 세월을 낚았다죠?<br><br>
-            저도 물고기는 낚을 줄 모릅니다.<br><br>
-            대신 범람하는 자료의 바다에서, 진귀하고 흥미로운 알짜배기 정보를 낚습니다.<br><br>
+            저는 범람하는 자료의 바다에서, 진귀하고 흥미로운 알짜배기 정보를 낚습니다.<br><br>
             데이터 수집, 분석, 시각화까지.<br><br>
-            세상 가득한 각종 데이터를 낚는 최고의 낚시바늘 J가 되겠습니다.<br><br>
+            세상 가득한 각종 정보를 낚는 최고의 낚시바늘 J가 되겠습니다.<br><br>
           </div>
           <div class="line_block"></div>
         </section>
@@ -193,7 +217,10 @@
                  <li><p class="job">시각화</p><p class="solution">Python3, matplotlib</p></li>
               </ul>
               <div class="description">
-                숫자 필기 인식 시스템에 대한 설명
+                사람이 손으로 쓴 0부터 9까지의 숫자를 이미지 형태로 대량 모아놓은 데이터를 보고 학습한 뒤, 새로운 숫자 이미지를 입력 받으면 어떤 숫자인지 출력하는 딥러닝 모델입니다.
+                <br>Python3로 작성되었으며, <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">MNIST</a> 데이터베이스에서 train data와 test data를 받아왔습니다. Keras의 ImageDataGenerator로 부족한 데이터를 보강하였으며, 이후 데이터를 normalize하였습니다.
+                <br>준비가 끝난 데이터는 keras의 convolutional network, max pooling과 batch normalization 과정을 수차례 거친 뒤 RELU와 Softmax activation 함수를 통해 결론에 도달합니다.
+                <br>Evaluation 결과 인식 정확도는 99.9%였습니다.
               </div>
             </div>
           </div>
