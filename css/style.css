@@ -60,7 +60,7 @@ h5 {
   font-size: 30px;
   font-weight: normal;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 h6 {
   color: #FF516C;
@@ -456,6 +456,9 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   margin-right: 50%;
   transform: translate(-50%, -50%);
   content:"";
+}
+.skill {
+  margin-top: 80px;
 }
 
 .skill-list {

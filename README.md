@@ -6,7 +6,7 @@ https://epaqu.github.io/my_portfolio/
 =======================================
 
 Fixed Issues
-1) 로고- 로고 자체가 J를 왼쪽으로 살짝 눕힌거. 낚시바늘 끝부분에는 정보가 걸렸다는 의미로 색깔을 다르게 한거고. 부족한가?
+1) 로고 - retained
 2) 예수 가라사대 - deleted
 3) They call me J 폰트 사이즈 업 - fixed
 4) J = 낚시바늘 강조 - done
