@@ -243,15 +243,6 @@
           $("html, body, .wrapper").animate({ scrollTop: 0 }, "fast");
         }
 
-
-        el.swipeEvents().bind("swipeDown",  function(event){
-          if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-          el.moveUp();
-        }).bind("swipeUp", function(event){
-          if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-          el.moveDown();
-        });
-
         $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function(event) {
           event.preventDefault();
           var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;

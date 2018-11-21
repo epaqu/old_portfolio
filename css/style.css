@@ -95,13 +95,14 @@ p {
 .msg {
   position: absolute;
   left: 20%;
-  margin-top: 48%;
+  margin-top: 47%;
   color: white;
   vertical-align: middle;
   text-align: right;
   font-size: 10px;
   font-weight: normal;
   font-family: "Source Sans Pro", sans-serif;
+  line-height: 2;
 }
 .keyword {
   list-style-position: inline;
