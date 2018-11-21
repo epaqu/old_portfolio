@@ -26,13 +26,13 @@
     <script type="text/javascript" src="./js/script.js"></script>
     <script type="text/javascript" src="./js/animation.js"></script>
     <script>
-       $(document).ready(function(){
+     $(document).ready(function() {
        $(".main").onepage_scroll({
-       sectionContainer: "section",
-       responsiveFallback: 600,
-       loop: true
+         sectionContainer: "section",
+         responsiveFallback: 600,
+         loop: true
        });
-       });
+     });
     </script>
   </head>
   <body>
@@ -104,7 +104,7 @@
         <!-- 프로젝트 1 스팀 -->
         <section id="works" class="page4">
           <div class="page_container">
-            <h2>1</h2>
+            <h6>1</h6>
             <h6>스팀 평점 예측 모델</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example1.png" alt="스팀 평점 예측 모델">
@@ -121,17 +121,16 @@
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://github.com/epaqu/steam-tag-analysis" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/steam-tag-analysis" target="_blank">코드</a>
-             <a role="button" class="ui-button" href="paper" target="_blank">보고서</a>
+          <div class="details">
+            <button class="btn" onclick="window.open('https://github.com/epaqu/steam-tag-analysis', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/steam-tag-analysis', '_blank')">Code</button>
           </div>
         </section>
 
         <!-- 프로젝트 2 PlayDB -->
         <section class="page5">
           <div class="page_container">
-            <h2>2</h2>
+            <h6>2</h6>
             <h6>PlayDB 공연 정보 크롤러</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example2.png" alt="PlayDB 공연 정보 크롤러">
@@ -144,20 +143,20 @@
                  <li><p class="job">시각화</p><p class="solution">HTML5, CSS3, Javascript, Ruby on Rails</p></li>
               </ul>
               <div class="description">
-                국내 최고의 공연 데이터베이스 사이트인 <a href="https://playdb.com/" target="_blank">playdb.com</a>에 등록된 콘서트, 뮤지컬, 페스티벌 등 모든 정보를 긁어와 json, html, csv 중 원하는 형태의 파일로 보여주고 저장할 수 있게 해주는 도구를 만들어보았습니다.
+                국내 최고의 공연 데이터베이스 사이트인 <a href="https://playdb.com/" target="_blank">playdb.com</a>에 등록된 콘서트, 뮤지컬, 페스티벌 등 모든 정보를 긁어와 json, html, csv 중 원하는 형태의 파일로 출력 및 저장을 지원하는 도구를 만들어보았습니다.
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/playdb-scraper" target="_blank">코드</a>
+          <div class="details">
+            <button class="btn" onclick="window.open('https://github.com/epaqu/playdb-scraper', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/playdb-scraper', '_blank')">Code</button>
           </div>
         </section>
 
         <!-- 프로젝트 3 네트워크 -->
         <section class="page6">
           <div class="page_container">
-            <h2>3</h2>
+            <h6>3</h6>
             <h6>카이스트 교수진 네트워크</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example3.png" alt="카이스트 교수진 네트워크">
@@ -170,20 +169,22 @@
                  <li><p class="job">시각화</p><p class="solution">Gephi0.9.2, Sigma.JS, Javascript, HTML5, CSS3</p></li>
               </ul>
               <div class="description">
-                2015년 기준 <a href="http://www.kaist.ac.kr" target="_blank">KAIST</a>의 모든 교수의 학부-석사-박사 진학 과정에서 나타나는 전공 변경의 시각화입니다. 원본 데이터는 KAIST 교무팀에 컨택하여 입수하였습니다. 이후 R로 데이터를 정규화하고 용도에 맞게 개선하였습니다. 원본 데이터를 R3.5.1에서 중복되는 열, 비어있는 열을 삭제한 뒤 띄어쓰기나 대소문자 등 형식이 다른 과명칭을 통일시켰습니다. 그 뒤 개인정보를 비식별화하였으며, 그 뒤에 다시 발생하는 중복열은 통합하여 edge weight 행에 가산하였습니다. 이렇게 기본적인 정규화를 진행한 뒤 Gephi0.9.2에서 SigmaExporter0.9.0 플러그인을 사용하여 HTML5 인터렉티브 네트워크로 내보냈습니다. 이후 가독성을 높이고 전체적으로 더 나은 UX를 제공하기 위해 index.html과 style.css, config.json를 가볍게 수정하였습니다.
+                2015년 기준 <a href="http://www.kaist.ac.kr" target="_blank">KAIST</a>의 모든 교수의 학부-석사-박사 진학 과정에서 나타나는 전공 변경의 시각화입니다.
+                <br>원본 데이터는 KAIST 교무팀에 컨택하여 입수하였습니다. 이후 R로 데이터를 정규화하고 용도에 맞게 개선하였습니다. R3.5.1에서 중복되는 열, 비어있는 열을 삭제한 뒤 띄어쓰기나 대소문자 등 형식이 다른 과명칭을 통일시켰습니다. 그 뒤 개인정보를 비식별화하였으며, 그 뒤에 다시 발생하는 중복열은 통합하여 edge weight 행에 가산하였습니다.
+                <br>이렇게 기본적인 정규화를 진행한 뒤 Gephi0.9.2에서 SigmaExporter0.9.0 플러그인을 사용하여 HTML5 인터렉티브 네트워크로 내보냈습니다. 이후 가독성을 높이고 전체적으로 더 나은 UX를 제공하기 위해 index.html과 style.css, config.json를 가볍게 수정하였습니다.
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://epaqu.github.io/interactive-network-of-kaist-profs" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/interactive-network-of-kaist-profs" target="_blank">코드</a>
+          <div class="details">
+            <button class="btn" onclick="window.open('https://epaqu.github.io/interactive-network-of-kaist-profs', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/interactive-network-of-kaist-profs', '_blank')">Code</button>
           </div>
         </section>
 
         <!-- 프로젝트 4 필기인식 -->
         <section class="page7">
           <div class="page_container">
-            <h2>4</h2>
+            <h6>4</h6>
             <h6>숫자 필기 인식 시스템</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example4.png" alt="숫자 필기 인식 시스템">
@@ -196,23 +197,23 @@
                  <li><p class="job">시각화</p><p class="solution">Python3, matplotlib</p></li>
               </ul>
               <div class="description">
-                사람이 손으로 쓴 0부터 9까지의 숫자를 이미지 형태로 대량 모아놓은 데이터를 보고 학습한 뒤, 새로운 숫자 이미지를 입력 받으면 어떤 숫자인지 출력하는 딥러닝 모델입니다.
+                사람이 손으로 쓴 0부터 9까지의 숫자의 이미지의 각 픽셀값을 한 열로 가지는 대용량 행렬의 일부를 train data로, 나머지를 test data로 정한 뒤, train data를 .csv로 읽어들여 학습하고 test data를 입력 받으면 어떤 숫자인지 출력하는 딥러닝 모델입니다.
                 <br>Python3로 작성되었으며, <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">MNIST</a> 데이터베이스에서 train data와 test data를 받아왔습니다. Keras의 ImageDataGenerator로 부족한 데이터를 보강하였으며, 이후 데이터를 normalize하였습니다.
                 <br>준비가 끝난 데이터는 keras의 convolutional network, max pooling과 batch normalization 과정을 수차례 거친 뒤 RELU와 Softmax activation 함수를 통해 결론에 도달합니다.
                 <br>Evaluation 결과 인식 정확도는 99.9%였습니다.
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://github.com/epaqu/digit-recognizer/tree/master/output" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/digit-recognizer/blob/master/digit%20recognizer.py" target="_blank">코드</a>
+          <div class="details">
+            <button class="btn" onclick="window.open('https://github.com/epaqu/digit-recognizer/tree/master/output', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/digit-recognizer/blob/master/digit%20recognizer.py', '_blank')">Code</button>
           </div>
         </section>
 
         <!-- 프로젝트 5 워드클라우드 -->
         <section class="page8">
           <div class="page_container">
-            <h2>5</h2>
+            <h6>5</h6>
             <h6>트위터 워드 클라우드</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example5.png" alt="트위터 워드 클라우드">
@@ -225,13 +226,15 @@
                  <li><p class="job">시각화</p><p class="solution">R3.5.1, wordcloud2</p></li>
               </ul>
               <div class="description">
-                원하는 해시태그를 검색하면 해당 해시태그를 가진 트윗 N개를 긁어와 발생 빈도에 따라 크기를 결정한 뒤 워드 클라우드 형태로 출력합니다. R.3.5.1을 사용하였으며, rtweet 패키지를 이용해 트위터 개발자 계정에 할당되는 API로 트위터를 매우 쉽게 긁어올 수 있었습니다. 역시 tidytext와 dplyr, stringr 등의 패키지를 사용해 rtweet이 긁어온 데이터를 용도에 알맞는 형식으로 변환하였고, wordcloud2 패키지를 이용해 워드 클라우드를 생성하였습니다.
+                트위터 해시태그로 워드 클라우드를 만드는 R 스크립트입니다. 원하는 해시태그를 검색하면 해당 해시태그를 가진 트윗 N개를 긁어와 발생 빈도에 따라 크기를 결정한 뒤 워드 클라우드 형태로 출력합니다.
+                <br>R.3.5.1을 사용하였으며, rtweet 패키지를 이용해 트위터 개발자 계정에 할당되는 API로 트위터를 매우 쉽게 긁어올 수 있었습니다.
+                <br>역시 tidytext와 dplyr, stringr 등의 패키지를 사용해 rtweet이 긁어온 데이터를 용도에 알맞는 형식으로 변환하였고, wordcloud2 패키지를 이용해 워드 클라우드를 생성하였습니다.
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud/blob/master/result.png" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud" target="_blank">코드</a>
+          <div class="details">
+            <button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud/blob/master/result.png', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud', '_blank')">Code</button>
           </div>
         </section>
 
@@ -239,7 +242,7 @@
         <!-- 프로젝트 6 암 진단
         <section class="page9">
           <div class="page_container">
-            <h2>6</h2>
+            <h6>6</h6>
             <h6>췌장암 진단 모델링</h6>
             <div class="showcase">
               <img class="showcase_image" src="img/example6.png" alt="췌장암 진단 모델링">
@@ -256,9 +259,10 @@
               </div>
             </div>
           </div>
-          <div class="ui">
-             <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud/blob/master/result.png" target="_blank">결과물</a>
-             <a role="button" class="ui-button" href="https://github.com/epaqu/twitter-wordcloud" target="_blank">코드</a>
+
+          <div class="details">
+            <button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud/blob/master/result.png', '_blank')">Product</button>
+            <button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud', '_blank')">Code</button>
           </div>
         </section> -->
 
@@ -291,6 +295,10 @@
                 <li>
                   <span title="폰트" class="credit"><a href="http://fonts.google.com/specimen/Source+Sans+Pro" target="_blank">Source Sans Pro</a></span>
                   <span class="source">Paul D. Hunt</span>
+                </li>
+                <li>
+                  <span title="폰트" class="credit"><a href="http://fonts.google.com/specimen/Roboto" target="_blank">Roboto</a></span>
+                  <span class="source">Christian Robertson</span>
                 </li>
                 <li>
                   <span title="폰트" class="credit"><a href="http://fonts.google.com/specimen/Mirza" target="_blank">Mirza</a></span>

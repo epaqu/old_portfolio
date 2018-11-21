@@ -14,13 +14,17 @@ Fixed Issues
 6) 하이퍼링크 폰트 색상 - changed
 7) 모바일 환경에서 스크롤 한번에 여러 페이지 이동 - fixed
 8) 마지막 업데이트 날짜 자동 기록 함수 작성 - done
+9) Redesign Projects Section
+10) Add buttons to hyperlinks in Projects Section.
 
 
 KNOWN ISSUES
-* Some works need better description
-* Menu buttons and One Page Scroll Jquery crash.
-* contents mingle on mobile.
+* Contents mingle on mobile.
+* Menu buttons and One Page Scroll JQuery crash.
 
 TO DO LIST
+* Add multiple image previews for each project.
 * Add some animations.
 * Get a domain name.
+* Some projects need better description
+* Some projects need improvement.
