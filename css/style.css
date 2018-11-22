@@ -133,18 +133,21 @@ p {
   h6 {
     font-size: 2em;
   }
+  .page_container .showcase {
+    position: relative;
+    left: 0%;
+  }
   .showcase_image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-bottom: 200px;
   }
   .explanation {
     display: none;
   }
   .details {
-    position: absolute;
+    position: relative;
     margin-right: 50%;
     bottom: 0;
     display: block;
