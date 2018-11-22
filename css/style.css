@@ -96,16 +96,16 @@ p {
 }
 @media screen and (max-width: 1259px){
   .menu {
-    visibility: hidden;
+    display: none;
   }
   .mainlogo {
     height: 300px;
   }
   .catchphrase {
-    visibility: hidden;
+    display: none;
   }
   .msg {
-    visibility: hidden;
+    display: none;
   }
   h3 {
     font-size: 2em;
@@ -126,7 +126,7 @@ p {
     top: 0;
   }
   .line_block {
-    visibility: hidden;
+    display: none;
   }
   h6 {
     font-size: 2em;
@@ -138,7 +138,7 @@ p {
     width: 90%;
   }
   .explanation {
-    visibility: hidden;
+    display: none;
   }
   .details {
     position: absolute;
