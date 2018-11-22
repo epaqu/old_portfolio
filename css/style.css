@@ -99,7 +99,9 @@ p {
     display: none;
   }
   .mainlogo {
-    height: 300px;
+    width: 75%;
+    height: auto;
+    margin: 12.5% 12.5% 12.5% 12.5%;
   }
   .catchphrase {
     display: none;
@@ -110,8 +112,8 @@ p {
   h3 {
     font-size: 2em;
   }
-  .J {
-    width: 19px;
+  h3 .J {
+    width: .7em;
   }
   h2 {
     font-size: 1.5em;
@@ -136,6 +138,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    margin-bottom: 200px;
   }
   .explanation {
     display: none;
@@ -143,7 +146,7 @@ p {
   .details {
     position: absolute;
     margin-right: 50%;
-    bottom: 5%;
+    bottom: 0;
     display: block;
   }
   .btn {
@@ -151,6 +154,22 @@ p {
   }
   h4 {
     font-size: 2em;
+  }
+  .page10 .page_container .rightSide {
+    background-color: #202020;
+    width: 100%;
+  }
+  .page10 {
+    background-color: #202020;
+  }
+  .page10 .page_container .rightSide .copyright {
+    bottom: 2%;
+    right: 0;
+    font-size: .5em;
+    margin-bottom: 1%;
+  }
+  .page10 .page_container .rightSide .update-date {
+    font-size: .5em;
   }
 }
 
@@ -283,14 +302,7 @@ p {
   max-width: auto;
   z-index: 3;
 }
-.page1 {
-  background-color: #202020;
-  background-opacity: .3;
-}
-.page2 {
-  background-color: #202020;
-}
-.page3 {
+.page1, .page2, .page3, .page10 {
   background-color: #202020;
 }
 .page4, .page5, .page6, .page7, .page8, .page9 {
@@ -585,7 +597,6 @@ li {
   min-height: 100vh;
   min-width: 50vw;
   position: relative;
-  box-sizing: border-box;
   border-spacing: 0;
   line-height: 2;
   font-family: "Mirza", sans-serif;
@@ -595,12 +606,11 @@ li {
 .rightSide {
   background-color: #101010;
   display: table-cell;
-  float: left;
+  float: right;
   padding: 100px 5vw;
   min-height: 100vh;
   min-width: 50vw;
   position: relative;
-  box-sizing: border-box;
   border-spacing: 0;
   line-height: 2;
   font-family: "Mirza", sans-serif;
