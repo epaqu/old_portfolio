@@ -1,6 +1,7 @@
 html {
   height: 100%;
   color: black;
+  word-break: keep-all;
 }
 a {
   color: #FF516C;
@@ -92,6 +93,70 @@ p {
   text-align: right;
   font-size: 50px;
   list-style-position: inline;
+}
+@media screen and (max-width: 1259px){
+  .menu {
+    visibility: hidden;
+  }
+  .mainlogo {
+    height: 300px;
+  }
+  .catchphrase {
+    visibility: hidden;
+  }
+  .msg {
+    visibility: hidden;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .J {
+    width: 19px;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .skill {
+    margin-bottom: 40px;
+  }
+  .first_skill {
+    margin: 0px;
+  }
+  .page_container {
+    top: 0;
+  }
+  .line_block {
+    visibility: hidden;
+  }
+  h6 {
+    font-size: 2em;
+  }
+  .showcase_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .explanation {
+    visibility: hidden;
+  }
+  .details {
+    position: absolute;
+    margin-right: 50%;
+    bottom: 5%;
+    display: block;
+  }
+  .btn {
+    margin-top: 1%;
+  }
+  h4 {
+    font-size: 2em;
+  }
+}
+
+.myself {
+  color: white;
+  font-size: 1em;
 }
 .msg {
   position: absolute;
