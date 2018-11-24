@@ -3,6 +3,7 @@ html {
   color: black;
   word-break: keep-all;
 }
+
 a {
   color: #FF516C;
   text-decoration: none;
@@ -21,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 h1 {
   color: #FF516C;
   font-family: "Raleway", sans-serif;
-  font-size:100px;
+  font-size: 6.6vh;
   font-weight: bold;
   text-align: center;
   margin: 0;
@@ -30,16 +31,17 @@ h1 {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-bottom: 0.6vh;
 }
 h2 {
+  font-size: 3vh;
   color: #67B8FF;
-  margin-bottom: 30px;
+  margin-bottom: 2vh;
 }
 h3 {
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 80px;
+  font-size: 5.3vh;
   font-weight: normal;
   text-transform: uppercase;
   text-align: center;
@@ -48,28 +50,28 @@ h3 {
 h4 {
   color: white;
   font-family: "Lato";
-  font-size: 60px;
+  font-size: 5.3vh;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
   opacity: 1;
-  margin-bottom: 50px;
+  margin-bottom: 3.3vh;
 }
 h5 {
   color: white;
   font-family: "Sunflower";
-  font-size: 30px;
+  font-size: 3vh;
   font-weight: normal;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0.6vh;
 }
 h6 {
   color: #FF516C;
   font-family: "Sunflower";
-  font-size: 40px;
+  font-size: 4vh;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.6vh;
 }
 
 p {
@@ -79,10 +81,10 @@ p {
   line-height: 1.5;
 }
 .first_skill {
-  margin-bottom: 100px;
+  margin-bottom: 6.6vh;
 }
 .mainlogo{
-  height: 400px;
+  height: 40vh;
   float: left;
 }
 .catchphrase {
@@ -91,97 +93,17 @@ p {
   color: white;
   vertical-align: middle;
   text-align: right;
-  font-size: 50px;
+  font-size: 6vh;
   list-style-position: inline;
 }
-@media screen and (max-width: 1259px){
-  .menu {
-    display: none;
-  }
-  .mainlogo {
-    width: 75%;
-    height: auto;
-    margin: 12.5% 12.5% 12.5% 12.5%;
-  }
-  .catchphrase {
-    display: none;
-  }
-  .msg {
-    display: none;
-  }
-  h3 {
-    font-size: 2em;
-  }
-  h3 .J {
-    width: .7em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  .skill {
-    margin-bottom: 40px;
-  }
-  .first_skill {
-    margin: 0px;
-  }
-  .page_container {
-    top: 0;
-  }
-  .line_block {
-    display: none;
-  }
-  h6 {
-    font-size: 2em;
-  }
-  .page_container .showcase {
-    position: relative;
-    left: 0%;
-  }
-  .showcase_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
-  .explanation {
-    display: none;
-  }
-  .details {
-    position: relative;
-    margin-right: 50%;
-    bottom: 0;
-    display: block;
-  }
-  .btn {
-    margin-top: 1%;
-  }
-  h4 {
-    font-size: 2em;
-  }
-  .page10 .page_container .rightSide {
-    background-color: #202020;
-    width: 100%;
-  }
-  .page10 {
-    background-color: #202020;
-  }
-  .page10 .page_container .rightSide .copyright {
-    bottom: 2%;
-    right: 0;
-    font-size: .5em;
-    margin-bottom: 1%;
-  }
-  .page10 .page_container .rightSide .update-date {
-    font-size: .5em;
-  }
-  .credit, .source {
-    font-size: .7em;
-  }
+.menu .list-inline {
+  display: none;
 }
 
 .myself {
   color: white;
-  font-size: 1em;
+  font-size: 2vh;
+  line-height: 4vh;
 }
 .msg {
   position: absolute;
@@ -190,26 +112,26 @@ p {
   color: white;
   vertical-align: middle;
   text-align: right;
-  font-size: 12px;
+  font-size: 0.7vh;
   font-weight: normal;
   font-family: "Source Sans Pro", sans-serif;
-  line-height: 2;
+  line-height: 1.5;
 }
 .keyword {
   list-style-position: inline;
 }
 .toplogo{
-  height: 80px;
+  height: 5.3vh;
   float: left;
   margin-top: 0.2%;
   margin-left: 0.5%;
 }
 .J {
   display: inline;
-  width: 38px;
+  width: 2.8vh;
 }
 #hook {
-  width: 200px;
+  width: 20vh;
   opacity: 0.5;
   margin-top: 10%;
   margin-bottom: 3%;
@@ -333,7 +255,7 @@ p {
 }
 
 .reload.bell {
-  font-size: 12px;
+  font-size: 0.8vh;
   padding: 20px;
   width: 45px;
   text-align: center;
@@ -343,7 +265,7 @@ p {
   -moz-border-radius: 50px;
 }
 .reload.bell #notification {
-  font-size: 25px;
+  font-size: 1.7vh;
   line-height: 140%;
 }
 .reload, .btn{
@@ -359,9 +281,13 @@ p {
   color: black;
   width: 100px;
   line-height: 140%;
-  font-size: 17px;
+  font-size: 1.2vh;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+.details {
+  padding-left: 10vw;
 }
 
 .btn {
@@ -447,7 +373,7 @@ p {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.87vh;
   color: black;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -474,7 +400,6 @@ header {
 
 
 body {
-  background: ;
   padding: 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -496,7 +421,7 @@ body.disabled-onepage-scroll .main section .page_container, body.disabled-onepag
 }
 body.disabled-onepage-scroll  section .page_container h1{
   text-align: center;
-  font-size: 50px;
+  font-size: 3.3vh;
 }
 body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
   text-align: center;
@@ -541,13 +466,14 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   content:"";
 }
 .skill {
-  margin-top: 80px;
+  margin-top: 5.3vh;
+  text-align: left;
 }
 
 .skill-list {
   list-style-type: none;
   text-align: left;
-  font-size: 20px;
+  font-size: 3vh;
   font-family: "Raleway"
 }
 
@@ -557,42 +483,44 @@ li {
 
 .showcase {
   position: absolute;
-  left: 10%;
+  right: 55%;
 }
 .showcase_image {
-  max-width: 600px;
-  max-height: 600px;
+  width: 60vh;
+  height: auto;
 }
 
 
 
 .explanation {
   position: absolute;
+  min-width: 60vw;
   margin-top: 5%;
-  left: 50%;
+  left: 55%;
 }
 
 .job {
   font-family: "Open Sans", sans-serif;
 }
 .job-list {
-  margin-left: -2em;
+  padding-left: 0;
   list-style-type: none;
   text-align: left;
-  font-size: 20px;
+  font-size: 2vh;
   font-family: "Open Sans", sans-serif
 }
 
 
 .solution {
-  margin-left: 2em;
+  margin-left: 2vh;
   font-family: "Roboto", sans-serif;
 }
 .description {
-  max-width: 600px;
+  max-width: 33vw;
+  height: auto;
   text-align: left;
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 2vh;
 }
 
 .leftSide {
@@ -606,7 +534,7 @@ li {
   border-spacing: 0;
   line-height: 2;
   font-family: "Mirza", sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   text-align: left;
 }
 .rightSide {
@@ -620,7 +548,7 @@ li {
   border-spacing: 0;
   line-height: 2;
   font-family: "Mirza", sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   text-align: left;
 }
 
@@ -638,7 +566,7 @@ li {
 .iconed-text a {
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
 }
 .iconed-text a:hover {
   text-decoration: none;
@@ -651,19 +579,19 @@ li {
   text-align: right;
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 1vh;
 }
 .copyright {
   position: absolute;
   bottom: 1%;
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 1vh;
 }
 
 .menu {
   background-color: #181818;
-  height: 90px;
+  height: 6vh;
 }
 .list-inline {
   text-decoration: none;
@@ -671,7 +599,7 @@ li {
   text-align: center;
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
-  font-size: 15px;
+  font-size: 1vh;
   color: white;
   z-index: 100;
   list-style-type: none;
@@ -700,4 +628,89 @@ li {
 
 .flaticon-envelope, .flaticon-comment-black-oval-bubble-shape, .flaticon-github-logo, .flaticon-linkedin-sign, .flaticon-telephone-handle-silhouette {
   color: #F0F0F0;
+}
+
+
+
+@media screen and (max-width: 950px){
+  .mainlogo {
+    position: absolute;
+    max-width: 45% auto;
+    max-height: 45% auto;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .menu .list-inline {
+    display: inline;
+  } 
+  .catchphrase {
+    display: none;
+  }
+  .msg {
+    display: none;
+  }
+  h3 {
+    font-size: 2vh;
+  }
+  h3 .J {
+    width: .7vh;
+  }
+  h2 {
+    font-size: 1.5vh;
+  }
+  .skill {
+    margin-bottom: 2.6vh;
+  }
+  .first_skill {
+    margin: 0;
+  }
+  .page_container {
+    top: 0;
+  }
+  .line_block {
+    display: none;
+  }
+  h6 {
+    font-size: 2em;
+  }
+  .page_container .showcase {
+    position: relative;
+    left: 12.5%;
+    width: 50vw;
+  }
+  .showcase_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+  }
+  .explanation {
+    display: none;
+  }
+  .details {
+    position: relative;
+    margin-right: 40%;
+    bottom: 0;
+    display: block;
+  }
+  .btn {
+    margin-top: 1%;
+  }
+  h4 {
+    font-size: 2vh;
+  }
+  .page10 .page_container .rightSide {
+    background-color: #202020;
+    width: 100%;
+  }
+  .page10 .page_container .leftSide {
+    width: 100%;
+    text-align: center;
+  }
+  .page10 {
+    background-color: #202020;
+  }
+  .update-date {
+    display: none;
+  }
 }

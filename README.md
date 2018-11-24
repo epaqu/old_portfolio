@@ -6,8 +6,8 @@ https://epaqu.github.io/my_portfolio/
 =======================================
 
 KNOWN ISSUES
-* Contents mingle on mobile.
-* Menu buttons and One Page Scroll JQuery crash.
+* Contents mingle on mobile. (70% fixed)
+* Menu buttons and One Page Scroll JQuery crash. (considering removing .nav... might feel empty need to compensate)
 
 TO DO LIST
 * Implement a function for auto numbering in projects section
